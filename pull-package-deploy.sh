@@ -1,5 +1,5 @@
 #!/bin/bash 
-cd /opt/script
-sudo chown -R centos:centos webapp
-cd webapp
+cd /opt
+sudo chown -R centos:centos script 
+cd script/webapp
 touch test.txt

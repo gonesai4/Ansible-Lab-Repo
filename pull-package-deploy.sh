@@ -1,7 +1,5 @@
 #!/bin/bash 
-git clone https://github.com/gonesai4/Ansible-Lab-Repo.git
-sudo cp -rf Ansible-Lab-Repo/* /tmp
-cd /tmp
+cd /home/centos/server
 sudo chown -R centos:centos webapp
 cd webapp
 mvn clean package

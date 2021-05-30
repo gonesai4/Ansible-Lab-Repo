@@ -1,5 +1,5 @@
 #!/bin/bash 
-cd /home/centos/server
+cd /opt/server
 sudo chown -R centos:centos webapp
 cd webapp
 mvn clean package
